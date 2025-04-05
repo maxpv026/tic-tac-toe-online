@@ -30,7 +30,7 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_output_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/output.css */ \"./styles/output.css\");\n/* harmony import */ var _styles_output_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_output_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! clsx */ \"clsx\");\n/* harmony import */ var next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"pages\\\\_app.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\",\"cyrillic\"]}],\"variableName\":\"inter\"} */ \"./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"pages\\\\\\\\_app.jsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\",\\\"cyrillic\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([clsx__WEBPACK_IMPORTED_MODULE_2__]);\nclsx__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction App({ Component, pageProps }) {\n    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (0,clsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"])((next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3___default().className), \"text-slate-900\")\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\maxym\\\\OneDrive\\\\Desktop\\\\tic-tak toe online\\\\pages\\\\_app.jsx\",\n        lineNumber: 9,\n        columnNumber: 3\n    }, this);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\maxym\\\\OneDrive\\\\Desktop\\\\tic-tak toe online\\\\pages\\\\_app.jsx\",\n        lineNumber: 10,\n        columnNumber: 10\n    }, this);\n    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {}, void 0, false, {\n        fileName: \"C:\\\\Users\\\\maxym\\\\OneDrive\\\\Desktop\\\\tic-tak toe online\\\\pages\\\\_app.jsx\",\n        lineNumber: 11,\n        columnNumber: 3\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFBOEI7QUFDTjtBQUlsQkM7QUFFUyxTQUFTQyxJQUFJLEVBQUVDLFNBQVMsRUFBRUMsU0FBUyxFQUFFO2tCQUNsRCw4REFBQ0M7UUFBSUMsV0FBV04sZ0RBQUlBLENBQUNDLG1LQUFlLEVBQUU7Ozs7OztJQUN0QyxxQkFBTyw4REFBQ0U7UUFBVyxHQUFHQyxTQUFTOzs7Ozs7a0JBQy9CLDhEQUFDQzs7Ozs7QUFDSCIsInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxtYXh5bVxcT25lRHJpdmVcXERlc2t0b3BcXHRpYy10YWsgdG9lIG9ubGluZVxccGFnZXNcXF9hcHAuanN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4uL3N0eWxlcy9vdXRwdXQuY3NzXCI7XG5pbXBvcnQgY2xzeCBmcm9tIFwiY2xzeFwiO1xuXG5pbXBvcnQgeyBJbnRlciB9IGZyb20gXCJuZXh0L2ZvbnQvZ29vZ2xlXCI7XG5cbmNvbnN0IGludGVyID0gSW50ZXIoeyBzdWJzZXRzOiBbXCJsYXRpblwiLCBcImN5cmlsbGljXCJdIH0pO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG4gIDxkaXYgY2xhc3NOYW1lPXtjbHN4KGludGVyLmNsYXNzTmFtZSwgXCJ0ZXh0LXNsYXRlLTkwMFwiKX0gLz47XG4gIHJldHVybiA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+O1xuICA8ZGl2IC8+O1xufVxuIl0sIm5hbWVzIjpbImNsc3giLCJpbnRlciIsIkFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImRpdiIsImNsYXNzTmFtZSJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.jsx\n");
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_output_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/output.css */ \"./styles/output.css\");\n/* harmony import */ var _styles_output_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_output_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! clsx */ \"clsx\");\n/* harmony import */ var next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"pages\\\\_app.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\",\"cyrillic\"]}],\"variableName\":\"inter\"} */ \"./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"pages\\\\\\\\_app.jsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\",\\\"cyrillic\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([clsx__WEBPACK_IMPORTED_MODULE_2__]);\nclsx__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction App({ Component, pageProps }) {\n    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (0,clsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"])((next_font_google_target_css_path_pages_app_jsx_import_Inter_arguments_subsets_latin_cyrillic_variableName_inter___WEBPACK_IMPORTED_MODULE_3___default().className), \"text-slate-900\")\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\maxym\\\\tic-tac-toe-online\\\\pages\\\\_app.jsx\",\n        lineNumber: 9,\n        columnNumber: 3\n    }, this);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\maxym\\\\tic-tac-toe-online\\\\pages\\\\_app.jsx\",\n        lineNumber: 10,\n        columnNumber: 10\n    }, this);\n    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {}, void 0, false, {\n        fileName: \"C:\\\\Users\\\\maxym\\\\tic-tac-toe-online\\\\pages\\\\_app.jsx\",\n        lineNumber: 11,\n        columnNumber: 3\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFBOEI7QUFDTjtBQUlsQkM7QUFFUyxTQUFTQyxJQUFJLEVBQUVDLFNBQVMsRUFBRUMsU0FBUyxFQUFFO2tCQUNsRCw4REFBQ0M7UUFBSUMsV0FBV04sZ0RBQUlBLENBQUNDLG1LQUFlLEVBQUU7Ozs7OztJQUN0QyxxQkFBTyw4REFBQ0U7UUFBVyxHQUFHQyxTQUFTOzs7Ozs7a0JBQy9CLDhEQUFDQzs7Ozs7QUFDSCIsInNvdXJjZXMiOlsiQzpcXFVzZXJzXFxtYXh5bVxcdGljLXRhYy10b2Utb25saW5lXFxwYWdlc1xcX2FwcC5qc3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiLi4vc3R5bGVzL291dHB1dC5jc3NcIjtcclxuaW1wb3J0IGNsc3ggZnJvbSBcImNsc3hcIjtcclxuXHJcbmltcG9ydCB7IEludGVyIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcclxuXHJcbmNvbnN0IGludGVyID0gSW50ZXIoeyBzdWJzZXRzOiBbXCJsYXRpblwiLCBcImN5cmlsbGljXCJdIH0pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xyXG4gIDxkaXYgY2xhc3NOYW1lPXtjbHN4KGludGVyLmNsYXNzTmFtZSwgXCJ0ZXh0LXNsYXRlLTkwMFwiKX0gLz47XHJcbiAgcmV0dXJuIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz47XHJcbiAgPGRpdiAvPjtcclxufVxyXG4iXSwibmFtZXMiOlsiY2xzeCIsImludGVyIiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwiZGl2IiwiY2xhc3NOYW1lIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.jsx\n");
 
 /***/ }),
 
@@ -44,6 +44,17 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 
 /***/ }),
 
+/***/ "clsx":
+/*!***********************!*\
+  !*** external "clsx" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("clsx");;
+
+/***/ }),
+
 /***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
 /*!**********************************************************************!*\
   !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
@@ -52,6 +63,17 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 
 "use strict";
 module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
 
 /***/ }),
 
@@ -85,28 +107,6 @@ module.exports = require("react/jsx-dev-runtime");
 
 "use strict";
 module.exports = require("react/jsx-runtime");
-
-/***/ }),
-
-/***/ "path":
-/*!***********************!*\
-  !*** external "path" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("path");
-
-/***/ }),
-
-/***/ "clsx":
-/*!***********************!*\
-  !*** external "clsx" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("clsx");;
 
 /***/ })
 
