@@ -3,7 +3,15 @@ import { UiButton } from "../uikit/ui-button";
 import { GameSymbol } from "./game-symbol";
 import { useGameState } from "./use-game-state";
 
-export function GameField({ className, cells, currentMove, nextMove, handleCellClick, winnerSequence }) {
+export function GameField({ 
+  className, 
+  cells, 
+  currentMove,
+  nextMove, 
+  handleCellClick, 
+  winnerSequence,
+  winnerSymbol 
+}) {
  
   const actions = (
     <>
@@ -28,6 +36,7 @@ export function GameField({ className, cells, currentMove, nextMove, handleCellC
           <GameCell
             key={index}
             isWinner={winnerSequence?.includes(index)}
+            disabled={!!winnerSymbol}
             onClick={() => {
               handleCellClick(index);
             }}
@@ -40,9 +49,10 @@ export function GameField({ className, cells, currentMove, nextMove, handleCellC
   );
 }
 
-function GameCell({ children, onClick, isWinner }) {
+function GameCell({ children, onClick, isWinner, disabled }) {
   return (
     <button
+      disabled={disabled}
       onClick={onClick}
       className={clsx("border border-slate-200 -ml-px -mt-px flex items-center justify-center",
          isWinner && 'bg-orange-600/10')}
