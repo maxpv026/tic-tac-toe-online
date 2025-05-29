@@ -40,7 +40,13 @@ const players = [
   },
 ];
 
-export function GameInfo({ className, playersCount, currentMove, isWinner, onPlayerTimeOver }) {
+export function GameInfo({
+  className,
+  playersCount,
+  currentMove,
+  isWinner,
+  onPlayerTimeOver,
+}) {
   return (
     <div
       className={clsx(
@@ -69,29 +75,28 @@ function PlayerInfo({ playerInfo, isRight, isTimerRunning, onTimeOver }) {
   const isDanger = seconds < 10;
 
   useEffect(() => {
-      if(isTimerRunning){
-       const interval = setInterval(() => {
+    if (isTimerRunning) {
+      const interval = setInterval(() => {
         setSeconds((s) => Math.max(s - 1, 0));
-    }, 1000);
-    return () => {
-      clearInterval(interval);
-      setSeconds(10);
+      }, 1000);
+      return () => {
+        clearInterval(interval);
+        setSeconds(10);
+      };
     }
-      }
   }, [isTimerRunning]);
 
   useEffect(() => {
     if (seconds === 0) {
-     onTimeOver();
+      onTimeOver();
     }
   }, [seconds]);
 
   const getTimerColor = () => {
-if(isTimerRunning){
-  return isDanger ? "text-orange-600" : "text-slate-900";
-}
-return "text-slate-400";
-
+    if (isTimerRunning) {
+      return isDanger ? "text-orange-600" : "text-slate-900";
+    }
+    return "text-slate-400";
   };
   return (
     <div className="flex gap-3 items-center">
@@ -112,12 +117,11 @@ return "text-slate-400";
         className={clsx(
           " text-lg font-semibold w-[60px]",
           isRight && "order-1",
-          getTimerColor()
+          getTimerColor(),
         )}
       >
         {minutesString}:{secondsString}
       </div>
     </div>
   );
-
 }
